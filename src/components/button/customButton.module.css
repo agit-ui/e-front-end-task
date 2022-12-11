@@ -1,0 +1,103 @@
+.inActive {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 8px;
+    width: 110px;
+    height: 31px;
+    border: 0.5px solid #E0E0E0;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    margin-right: 8px;
+}
+
+.isActive {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 8px;
+    width: 110px;
+    height: 31px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    margin-right: 8px;
+    border: 1px solid #32C08D;
+    background: #EAF9F4;
+    color:#219B6F;
+}
+
+.confirm {
+    font-family: 'Poppins';
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 7px;
+    gap: 8px;
+    width: 100%;
+    border-radius: 100px;
+    background: #FBF4F6;
+    color: #B2294B;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5%;
+}
+
+.ok {
+    font-family: 'Poppins';
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 7px;
+    gap: 8px;
+    width: 100%;
+    border-radius: 100px;
+    background: #F0F0F0;
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5%;
+}
+
+
+.reschedule_cancel {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 8px;
+    width: 48%;
+    height: 30%;
+    height: 31px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    border: 0.5px solid #E0E0E0;
+    background: #ffffff;
+    color: #B2294B;
+    margin-top: 5%;
+}
+
+@media screen and (max-width : 800px){
+    .ok {
+        padding: 10px 130px
+    }
+}

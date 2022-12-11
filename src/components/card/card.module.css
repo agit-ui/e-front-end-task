@@ -1,0 +1,75 @@
+.cardHolder {
+    padding: 16px;
+    gap: 16px;
+    width: 304px;
+    height: 276px;
+    background: #FFFFFF;
+    box-shadow: 0px 0.5px 5px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin-right: 16px;
+    font-family: 'Poppins';
+    margin-bottom: 5%;
+}
+
+.cardTitle-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 1%;
+    font-family: 'Poppins';
+}
+
+.cardPicture {
+    width: 96px;
+    height: 96px;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+    line-height: 9px;
+    font-family: 'Poppins';
+}
+
+.cardDetail {
+    color: #878787;
+    font-family: 'Poppins';
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-holder {
+    width: 100%;
+}
+
+@media screen and (max-width : 472px){
+    .cardHolder {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+        width: 88%;
+        height: 30%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .cardTitle {
+        margin-left: 3%;
+    }
+    
+    .cardInfo {
+        width: 90%;
+    }
+}

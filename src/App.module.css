@@ -1,0 +1,45 @@
+.body{
+    height:100%;
+    background-color: #FAFAFA;
+    font-family: 'Poppins';
+    font-style: normal;
+    overflow: hidden
+}
+
+.body-content {
+    padding: 20px 15% 0px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.body-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.button-container {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.card-holder{
+    display: flex;
+}
+
+@media screen and (max-width : 800px){
+    .card-holder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-content {
+        padding: 20px 9% 0px 9%;
+    }
+    
+}
